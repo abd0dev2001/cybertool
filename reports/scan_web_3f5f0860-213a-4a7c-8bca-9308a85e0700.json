@@ -1,0 +1,19 @@
+{
+  "id": "3f5f0860-213a-4a7c-8bca-9308a85e0700",
+  "target": "https://example.com",
+  "scan_type": "web",
+  "started_at": "2025-08-12T06:12:24.665827Z",
+  "finished_at": "2025-08-12T06:12:24.665887Z",
+  "findings": [
+    {
+      "id": "1903b509-0291-494e-bd9e-472e412c9493",
+      "severity": "high",
+      "title": "SQL Injection",
+      "description": "Blind SQL injection found",
+      "location": "/login",
+      "tool": "sqlmap",
+      "extra": {}
+    }
+  ],
+  "metadata": {}
+}

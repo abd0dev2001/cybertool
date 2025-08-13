@@ -1,0 +1,27 @@
+quick:
+  network:
+    - nmap
+  webapp:
+    - nikto
+  code:
+    - semgrep
+  container:
+    - trivy
+  ssl:
+    - testssl
+
+deep:
+  network:
+    - nmap
+    - masscan
+  webapp:
+    - nikto
+    - wapiti
+  code:
+    - bandit
+    - semgrep
+  container:
+    - trivy
+    - grype
+  ssl:
+    - testssl

@@ -1,0 +1,6 @@
+default_profile: quick
+scan_timeout_seconds: 300
+report_formats:
+  - json
+  - txt
+output_directory: reports

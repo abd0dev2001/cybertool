@@ -1,0 +1,4 @@
+
+--- nmap ---
+MEDIUM: Open port 80 (http) @ 23.192.228.80:80
+MEDIUM: Open port 443 (http) @ 23.192.228.80:443

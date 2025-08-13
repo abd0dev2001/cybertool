@@ -1,0 +1,30 @@
+python:
+  - bandit
+  - semgrep
+
+javascript:
+  - eslint
+  - semgrep
+
+java:
+  - spotbugs
+  - semgrep
+
+go:
+  - govulncheck
+  - semgrep
+
+php:
+  - phpstan
+  - semgrep
+
+ruby:
+  - brakeman
+  - semgrep
+
+cpp:
+  - cppcheck
+  - semgrep
+
+multi:
+  - semgrep
