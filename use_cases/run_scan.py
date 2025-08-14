@@ -1,6 +1,6 @@
 from typing import Dict, Optional
 from domain.scan_result import ScanFinding, ScanResult
-from infrastructure.scan_tools.network import run_nmap
+from infrastructure.scan_modules.network import run_nmap
 from use_cases.select_tools import select_tools
 
 def scanner_runner(tool_id: str, target: str, context: dict) -> ScanResult:
